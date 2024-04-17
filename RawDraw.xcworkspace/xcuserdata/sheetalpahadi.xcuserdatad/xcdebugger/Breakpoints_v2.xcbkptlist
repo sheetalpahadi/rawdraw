@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C7FC26E4-F00B-47C1-ABE0-EC8B40CD1DE7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A71D46A0-BB38-47A7-ABD3-84206D8D855A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RawDraw/RDUserDashboardVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A71D46A0-BB38-47A7-ABD3-84206D8D855A - 5dc8347235eb9ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RawDraw.RDUserDashboardVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "RawDraw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheetalpahadi/Documents/Sheetal%20Projects/RawDraw/RawDraw/RDUserDashboardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1348">
+               </Location>
+               <Location
+                  uuid = "A71D46A0-BB38-47A7-ABD3-84206D8D855A - 5dc8347235eb9ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RawDraw.RDUserDashboardVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "RawDraw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheetalpahadi/Documents/Sheetal%20Projects/RawDraw/RawDraw/RDUserDashboardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1220">
+               </Location>
+               <Location
+                  uuid = "A71D46A0-BB38-47A7-ABD3-84206D8D855A - 5dc8347235eb9ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RawDraw.RDUserDashboardVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "RawDraw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheetalpahadi/Documents/Sheetal%20Projects/RawDraw/RawDraw/RDUserDashboardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C655063B-6FBC-4DE2-9CD2-D516B56B90CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RawDraw/RDUserDashboardVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "addNoteTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C655063B-6FBC-4DE2-9CD2-D516B56B90CA - b10248e289d5cab0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RawDraw.RDUserDashboardVC.addNoteTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "RawDraw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheetalpahadi/Documents/Sheetal%20Projects/RawDraw/RawDraw/RDUserDashboardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "C655063B-6FBC-4DE2-9CD2-D516B56B90CA - b10248e289d5cab0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RawDraw.RDUserDashboardVC.addNoteTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "RawDraw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sheetalpahadi/Documents/Sheetal%20Projects/RawDraw/RawDraw/RDUserDashboardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

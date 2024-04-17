@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDUserDashboardVC" customModule="RawDraw" customModuleProvider="target">
+            <connections>
+                <outlet property="addButton" destination="DF5-3J-3fq" id="A8h-G5-Hx4"/>
+                <outlet property="drawingsCollection" destination="PP2-7r-9U4" id="rUH-uL-Prl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Scribblings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xx-R4-Adi">
+                    <rect key="frame" x="0.0" y="59" width="393" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" + Add " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DF5-3J-3fq">
+                    <rect key="frame" x="329" y="59" width="54" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="AppFadedLightBlue"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PP2-7r-9U4">
+                    <rect key="frame" x="0.0" y="90" width="393" height="762"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="n7i-ch-1BZ">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="DF5-3J-3fq" firstAttribute="top" secondItem="2xx-R4-Adi" secondAttribute="top" id="3sL-gg-CE9"/>
+                <constraint firstAttribute="bottom" secondItem="PP2-7r-9U4" secondAttribute="bottom" id="7Da-8J-Wdx"/>
+                <constraint firstItem="PP2-7r-9U4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="FLb-rO-FHg"/>
+                <constraint firstItem="2xx-R4-Adi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="QkS-PC-SPp"/>
+                <constraint firstItem="2xx-R4-Adi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Vdw-2u-VcV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PP2-7r-9U4" secondAttribute="trailing" id="W22-Rc-smI"/>
+                <constraint firstItem="PP2-7r-9U4" firstAttribute="top" secondItem="2xx-R4-Adi" secondAttribute="bottom" constant="10" id="fIh-ql-fDm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2xx-R4-Adi" secondAttribute="trailing" id="fYT-bk-9wi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DF5-3J-3fq" secondAttribute="trailing" constant="10" id="nuO-Gf-1zR"/>
+            </constraints>
+            <point key="canvasLocation" x="85" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppFadedLightBlue">
+            <color red="0.86274509803921573" green="0.94901960784313721" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

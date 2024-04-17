@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RDLoginVC" customModule="RawDraw" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="jRX-4D-Owr" id="1oy-6a-3we"/>
+                <outlet property="errorLabel" destination="q84-P1-UGe" id="Gvx-hf-dKH"/>
+                <outlet property="passwordTextField" destination="wrf-p8-MII" id="ifl-WX-OVg"/>
+                <outlet property="signinButton" destination="0ZJ-Jn-Ol6" id="7NJ-54-Ihk"/>
+                <outlet property="view" destination="0eh-98-JP4" id="C6L-WY-CEw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0eh-98-JP4" userLabel="Login VC">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0Il-P4-uT2">
+                    <rect key="frame" x="50" y="377" width="293" height="98"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jRX-4D-Owr">
+                            <rect key="frame" x="0.0" y="0.0" width="293" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wrf-p8-MII">
+                            <rect key="frame" x="0.0" y="64" width="293" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" textContentType="password"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZJ-Jn-Ol6">
+                    <rect key="frame" x="46.666666666666657" y="535" width="300" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="Bya-qK-mKP"/>
+                        <constraint firstAttribute="height" constant="40" id="HKg-px-eS7"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Sign in"/>
+                    <connections>
+                        <action selector="signinTapped:" destination="-1" eventType="touchUpInside" id="8jN-fR-48p"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q84-P1-UGe">
+                    <rect key="frame" x="176" y="585" width="41.333333333333343" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Rx5-Mo-Gwg"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0ZJ-Jn-Ol6" firstAttribute="centerX" secondItem="0eh-98-JP4" secondAttribute="centerX" id="DKI-XY-b5c"/>
+                <constraint firstItem="q84-P1-UGe" firstAttribute="top" secondItem="0ZJ-Jn-Ol6" secondAttribute="bottom" constant="10" id="ECU-TJ-0wy"/>
+                <constraint firstItem="0ZJ-Jn-Ol6" firstAttribute="top" secondItem="0Il-P4-uT2" secondAttribute="bottom" constant="60" id="PJ9-ng-yjS"/>
+                <constraint firstItem="0Il-P4-uT2" firstAttribute="centerY" secondItem="0eh-98-JP4" secondAttribute="centerY" id="SWB-FB-b8N"/>
+                <constraint firstItem="Rx5-Mo-Gwg" firstAttribute="trailing" secondItem="0Il-P4-uT2" secondAttribute="trailing" constant="50" id="VzC-7y-XiK"/>
+                <constraint firstItem="0Il-P4-uT2" firstAttribute="leading" secondItem="Rx5-Mo-Gwg" secondAttribute="leading" constant="50" id="jev-cV-xTp"/>
+                <constraint firstItem="q84-P1-UGe" firstAttribute="centerX" secondItem="0eh-98-JP4" secondAttribute="centerX" id="pP3-pw-tsW"/>
+            </constraints>
+            <point key="canvasLocation" x="-1066.4122137404579" y="-52.112676056338032"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
